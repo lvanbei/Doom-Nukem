@@ -46,3 +46,7 @@ make
 [hde-moff](https://www.linkedin.com/in/henri-de-moffarts-862bb5164)
 
 [lvan-bei](https://www.linkedin.com/in/lvanbei)
+
+## Preview
+
+![alt text](https://github.com/lvanbei/Doom-Nukem/blob/master/README_img/doom_github_preview.jpg "img1")

@@ -23,7 +23,7 @@ make sdl
 make
 ```
 
-### On Linux 
+### On Macos 
 ```shell
 git clone https://github.com/lvanbei/Doom-Nukem.git
 make sdl

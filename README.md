@@ -10,7 +10,7 @@ It were coded from scratch and valided on our [42](https://www.42.fr/) cursus at
 
 - Macos mojave (10.14.*) or earlier
 
-We use OpenGL
+We use OpenGL and SDL2
 
 ## Installation
 

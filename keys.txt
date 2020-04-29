@@ -1,0 +1,14 @@
+	 ----KEYS----
+     Key(s)   |	      Action
+(fn +) F6     :    Pause / play
+wqsd 	      :	   To move
+Arrow / mouse :	   View
+F	      :    Get item
+G	      :    Open door
+C	      :    Change Gun
+J / Space     :    Jet-Pack (On/Off) / Fly 
+Control       :    Crop
+Shift Left    :    Shoot
+MouseButtonL  :    Shoot
+Space	      :    Jump
+         ------------

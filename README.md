@@ -9,7 +9,8 @@ It were coded from scratch and valided on our [42](https://www.42.fr/) cursus at
 - Linux
 
 - Macos mojave (10.14.*) or earlier
-We used OpenGL
+
+We use OpenGL
 
 ## Installation
 

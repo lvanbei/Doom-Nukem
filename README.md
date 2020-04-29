@@ -1,6 +1,6 @@
 # Doom-Nukem
 
-Doom-Nukem is game a engine based on the famous Duke Nukem game from the '90s.
+Doom-Nukem is a game engine based on the famous Duke Nukem game from the '90s.
 
 It were coded from scratch and valided on our [42](https://www.42.fr/) cursus at [19 coding school](https://www.s19.be/)
 

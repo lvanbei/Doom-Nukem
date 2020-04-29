@@ -1,7 +1,7 @@
 	 ----KEYS----
      Key(s)   |	      Action
 (fn +) F6     :    Pause / play
-wqsd 	      :	   To move
+wasd 	      :	   To move
 Arrow / mouse :	   View
 F	      :    Get item
 G	      :    Open door

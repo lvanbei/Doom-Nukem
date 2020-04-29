@@ -11,9 +11,9 @@ It were coded from scratch and valided on our [42](https://www.42.fr/) cursus at
 
 ## Installation
 
-In the repo type :
 
 ```shell
+git clone https://github.com/lvanbei/Doom-nukem.git
 make sdl
 make
 ```

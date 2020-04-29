@@ -13,7 +13,7 @@ It were coded from scratch and valided on our [42](https://www.42.fr/) cursus at
 
 
 ```shell
-git clone https://github.com/lvanbei/Doom-nukem.git
+git clone https://github.com/lvanbei/Doom-Nukem.git
 make sdl
 make
 ```

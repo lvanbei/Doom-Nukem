@@ -15,6 +15,29 @@ sudo dpkg --configure -a
 sudo apt-get install libasound2-dev libpulse-dev libgl1-mesa-dev
 ```
 
+## Run on MacOS Big Sur
+
+SDL2 & SDL2_mixer Libraries aren't working on Big Sur when compiling directly from the repo.
+
+A work around to fix this issue is to past SDL2 and SDL_2.mixer framework on the : /Library/Frameworks/ path.
+
+Those frameworks can be downloaded using those links : 
+
+- SDL2 : https://www.libsdl.org/release/SDL2-2.0.14.dmg
+- SDL2_mixer : https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.4.dmg
+
+Once the folders : SDL2_mixer.framework and SDL2.framework are copied on the /Library/Frameworks/ folder of your machine you need to update the current Makefile.
+
+Replace line 73 & 74 by those two bellow :
+
+```c
+CFLAGS =  -I common -Wall -Wextra -Werror -g -I /Library/Frameworks/SDL2.framework/Headers -I /Library/Frameworks/SDL2_mixer.framework/Versions/A/Headers
+LDFLAGS = -lpthread -F/Library/Frameworks -framework SDL2 -framework SDL2_mixer common/ft_printf/libftprintf.a
+```
+
+Now save your new MakeFile and run the make command, you can skip the Installation chapter of this ReadMe.
+
+
 ## Installation
 
 ```shell
